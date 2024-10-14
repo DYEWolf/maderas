@@ -1,0 +1,71 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  flex: 1 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  width: 1388px;
+  height: 771px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-information {
+  background-color: #50655b;
+  color: #ffffff;
+  width: 508px;
+  height: 697px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons-container {
+  display: flex;
+  align-items: baseline;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+hr {
+  border: 1.8px solid white;
+}
+
+.media {
+  width: 80%;
+}
+
+.media-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.info-container {
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+app-contact {
+  display: contents;
+}

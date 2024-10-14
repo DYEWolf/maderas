@@ -3,10 +3,13 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "primeicons/primeicons.css";
 body,
 html {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", serif;
+  height: 100%;
 }
 
 // <uniquifier>: Use a unique and descriptive class name

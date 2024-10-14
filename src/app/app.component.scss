@@ -5,6 +5,7 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   z-index: 1000;
   height: 126px;
   border-bottom: ridge;
@@ -28,4 +29,56 @@
 .logo {
   height: 32px;
   width: auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.copyright {
+  font-size: 20px;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+router-outlet {
+  display: contents; /* This allows the router-outlet to not interfere with flexbox */
 }
