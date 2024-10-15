@@ -1,27 +1,5 @@
-<div class="app-container">
-  <main>
-    <nav class="navbar">
-      <div class="navbar-container">
-        <a routerLink="/home" class="nav-link">Inicio</a>
-        <a routerLink="/products" class="nav-link">Productos</a>
-        <img ngSrc="logo-nav.png" width="59" height="52" alt="MB maderas logo" priority>
-        <a routerLink="/gallery" class="nav-link">Galería</a>
-        <a routerLink="/contact" class="nav-link">Contacto</a>
-      </div>
-    </nav>
-    <div class="content">
-      <router-outlet></router-outlet>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="footer-content">
-      <span class="copyright">2024, MB Maderas</span>
-      <div class="social-icons">
-        <i class="pi pi-tiktok"></i>
-        <i class="pi pi-facebook"></i>
-        <i class="pi pi-twitter"></i>
-        <i class="pi pi-instagram"></i>
-      </div>
-    </div>
-  </footer>
-</div>
+<app-navbar />
+
+<router-outlet></router-outlet>
+
+<app-footer />
